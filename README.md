@@ -10,7 +10,7 @@
   - You can use this dataset to train any object detection model, please refer to the corresponding model introduction for specific training methods.
   - The following is an example of Vtuber/Vups anchor target detection, which is detected using the Yolov5m model.  
 ### 顾子韵GZY 
-![Image text](https://raw.githubusercontent.com/JiaXinSugar-114514/Vtuber-Vup-Dataset/main/gzy.jpg)
+![Image text](https://raw.githubusercontent.com/JiaXinSugar-114514/VtuberDatasets/main/gzy.jpg)
 ## 数据集介绍(Introduction to datasets)
 ### 数据集格式(Dataset format)  
   - 采用labelimg软件进行标注，标签标注格式为yolov格式，和每一类的图片存放在同一个文件夹下。  
@@ -51,7 +51,7 @@
   - 以下是该数据集在yolov5s模型上训练得到的混淆矩阵和Precision-Recall曲线图：
   - The above is all the dataset used for training, a total of 1841 images, and the author will continue to update and expand the dataset if he has time.It is worth noting that the dataset is not balanced, and the difference in the number of images in each category is relatively large, which is due to the difference in the popularity of different Vtuber/Vups, so the richness of each Vtuber/Vups picture is not the same.  
   - The following is the confusion matrix and Precision-Recall graph obtained by training on the yolov5s model of this dataset:  
-<img src="https://raw.githubusercontent.com/JiaXinSugar-114514/Vtuber-Vup-Dataset/main/confusion_matrix.png" width="450px"><img src="https://raw.githubusercontent.com/JiaXinSugar-114514/Vtuber-Vup-Dataset/main/PR_curve.png" width="500px">
+<img src="https://raw.githubusercontent.com/JiaXinSugar-114514/VtuberDatasets/main/confusion_matrix.png" width="450px"><img src="https://raw.githubusercontent.com/JiaXinSugar-114514/VtuberDatasets/main/PR_curve.png" width="500px">
   - 可以看出，模型对DongXueLian东雪莲和LingYuan_yousa泠鸢这两个类别的分类效果不是很令人满意，这是由于这两个虚拟主播的形象过于丰富，且在二创作品中的形象过于多变且模糊所造成。如果您想要使用我的数据集来进行分类，请千万注意，如果分类效果不佳，您需要优先考虑这是否是由数据集本身的缺点所引起的，而不是您的原因。
   - It can be seen that the classification effect of the model on the two categories of Dongxuelian and LingYuan_yousa is not very satisfactory, which is caused by the images of these two Vtuber/Vups is too rich, and the images painted by their fans is too changeable and blurry. if you want to use my dataset for classification, please pay attention to it, if the classification effect is not good, you need to prioritize whether this is caused by the shortcomings of the dataset itself, not your reasons.
 ### 数据来源(Data sources)
