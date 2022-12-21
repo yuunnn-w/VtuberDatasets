@@ -1,0 +1,36 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# Vtuber&Vup dataset
+# Example usage: python train.py --data Vtuber&Vup.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── Vtuber&Vup  ← downloads here
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../datasets/Vtuber&Vup  # dataset root dir
+train: images/train  # train images (relative to 'path') 
+val: images/test  # val images (relative to 'path') 
+test:  # test images (optional)
+
+# Classes
+names:
+  0: Nanami
+  1: DongXueLian
+  2: BingTangIO
+  3: MieLi
+  4: Diana
+  5: Taffy
+  6: DaSi
+  7: MingQianNaiLv
+  8: XiaoKe
+  9: XingTong
+  10: TaoJiOvO
+  11: LingYuan
+  12: ShenLeQiNai
+  13: MaoLei
+  14: KizunaAI
+  15: Azi
+  16: GZY
+  17: Mayumi
+  18: Other
